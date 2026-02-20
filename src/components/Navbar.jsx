@@ -1,0 +1,41 @@
+import React from 'react'
+import { Link, NavLink } from 'react-router-dom';
+
+
+const Navbar = () => {
+    return (
+        <nav className='w-full bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50'>
+            <div className='max-w-6xl mx-auto px-6 py-2'>
+                <div className='flex items-center h-16'>
+
+                <div className='flex gap-20 items-center'>
+                    <Link to='/' className='text-2xl font-serif text-bold text-[#e67e22]'>Chuks Kitchen</Link>
+                
+                
+
+                <ul className='flex-1 flex justify-center space-x-28 font-medium text-slate-600 text-sm tracking-wide'>
+                    <li>
+                        <NavLink to='/' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>Home</NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink to='/menu' className={({ isActive }) => isActive ?'text-[#e67e22]': 'hover:text-[#e67e22] transition'}>Explore</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>My Orders</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>Account</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/cart' className='bg-[#e67e22] text-white px-8 py-2 rounded-md font-semibold text-sm hover:bg-[#d35400] transition shadow-md'>Login</NavLink>
+                    </li>
+                </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+    )
+}
+
+export default Navbar
