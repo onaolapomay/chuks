@@ -1,16 +1,16 @@
 import React from 'react'
-import HeroImage from '../assets/Hero.jpg'
+import HeroImage from '/public/Hero.jpg'
 import { Search } from 'lucide-react'
 
 
 const Home =() => {
     const categories = [
-        { id: 1, name: 'Jollof Delights', image: '/src/assets/jollofD.png'},
-        { id: 2, name: 'Swallow & Soups', image: '/src/assets/swallow.png'},
-        { id: 3, name: 'Grills & BBQ', image: '/src/assets/grill.png'},
-        { id: 4, name: 'Sweet Treats', image: '/src/assets/sweet.png'},
-        { id: 5, name: 'Jollof Delights', image: '/src/assets/swallow.png'},
-        { id: 6, name: 'Jollof Delights', image: '/src/assets/grill.png'},
+        { id: 1, name: 'Jollof Delights', image: '/jollofD.png'},
+        { id: 2, name: 'Swallow & Soups', image: '/swallow.png'},
+        { id: 3, name: 'Grills & BBQ', image: '/grill.png'},
+        { id: 4, name: 'Sweet Treats', image: '/sweet.png'},
+        { id: 5, name: 'Jollof Delights', image: '/swallow.png'},
+        { id: 6, name: 'Jollof Delights', image: '/grill.png'},
     ]
 
 

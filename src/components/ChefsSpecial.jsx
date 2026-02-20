@@ -8,38 +8,38 @@ const ChefsSpecial = () => {
             id: 1, title: 'Spicy Tilapia Pepper Soup', 
             description: 'A comforting and spicy soup with tender tilapia fish, a true Nigerian delicacy', 
             price: '3,500',
-            image: '/src/assets/tilapia.png' 
+            image: '/tilapia.png' 
         },
 
         {
             id: 2, title: 'Jollof Rice with Grilled Chicken',
             description: 'Our signature Jollof rice, cooked to perfection, served with succulent fried chicken',
             price: '4,000',
-            image: '/src/assets/jollofD.png'
+            image: '/jollofD.png'
          },
          {
             id: 3, title: 'Jollof Rice & Fried Chicken',
             description: 'A classic Nigerian dish featuring fragrant jollof rice served with crispy fried chicken',
             price: '4,000',
-            image: '/src/assets/jollofD.png'
+            image: '/jollofD.png'
          },
          {
             id: 4, title: 'Jollof Rice & smoked Chicken',
             description: 'Our signature Jollof rice, cooked to perfection, served with succulent fried chicken',
-            price: ',500',
-            image: '/src/assets/jollofD.png'
+            price: '4,500',
+            image: '/jollofD.png'
          },
          {
             id: 5, title: 'Jollof Rice & Grilled Chicken & Fried Plantain',
             description: 'A classic Nigerian dish featuring fragrant jollof rice served with crispy fried chicken',
             price: '4,000',
-            image: '/src/assets/riceDodo.png'
+            image: '/riceDodo.png'
          },
          {
             id: 6, title: 'Egusi soup with pounded yam',
             description: 'Rich and Savory Egusi soup made with ground melon seeds, served with soft and stretchy pounded yam',
             price: '4,000',
-            image: '/src/assets/egusi.png'
+            image: '/egusi.png'
          }
 
     ]
