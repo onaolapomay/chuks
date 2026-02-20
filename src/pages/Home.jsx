@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '/public/Hero.jpg'
+import HeroImage from '/Hero.jpg'
 import { Search } from 'lucide-react'
 
 

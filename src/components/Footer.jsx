@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='flex flex-col w-full'>
                 <section className='relative h-[400px] md:h-[500px] flex items-center px-6 md:px-16 overflow-hidden'>
                     <div className='absolute inset-0 z-0'>
-                        <img src="/src/assets/beans.png" alt="delicious food" className="w-full h-full object-cover" />
+                        <img src='/beans.png' alt="delicious food" className='w-full h-full object-cover' />
                         <div className='absolute inset-0 bg-black/50'></div>
                     </div>
 
