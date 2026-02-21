@@ -7,8 +7,9 @@ import ChefsSpecial from './components/ChefsSpecial'
 import Account from './pages/Account'
 import Menu from './pages/Menu'
 import Cart from './pages/Cart'
-import Orders from './pages/Orders'
 import Footer from './components/Footer'
+import SignUp from './pages/SignUp'
+import Login from './pages/Login'
 
 
 function App() {
@@ -21,16 +22,17 @@ function App() {
             <>
               <Home />
               <ChefsSpecial />
-              <Footer />
             </>
           } />
           
+          <Route path='/signup' element={<SignUp />} />
+          <Route path='/login' element={<Login />} />
           <Route path='/account' element={<Account />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/cart' element={<Cart />} />
-          <Route path='/orders' element={<Orders />} />
 
         </Routes>
+        <Footer />
     </div>
     </Router>
   )

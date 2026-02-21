@@ -34,7 +34,7 @@ const Navbar = () => {
                         <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>Account</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/cart' className='bg-[#e67e22] text-white px-8 py-2 rounded-md font-semibold text-sm hover:bg-[#d35400] transition shadow-md'>Login</NavLink>
+                        <NavLink to='/login' className='bg-[#e67e22] text-white px-8 py-2 rounded-md font-semibold text-sm hover:bg-[#d35400] transition shadow-md'>Login</NavLink>
                     </li>
                 </ul>
                 </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
                     </li>
                         
                     <li>
-                        <NavLink to='/cart' className='bg-[#e67e22] text-white px-8 py-2 rounded-md font-semibold text-sm hover:bg-[#d35400] transition shadow-md'>Login</NavLink>
+                        <NavLink to='/login' className='bg-[#e67e22] text-white px-8 py-2 rounded-md font-semibold text-sm hover:bg-[#d35400] transition shadow-md'>Login</NavLink>
                     </li>
                 </ul>
                 </>

@@ -5,26 +5,7 @@ const Footer = () => {
 
     return (
         <div className='flex flex-col w-full'>
-                <section className='relative h-[400px] md:h-[500px] flex items-center px-6 md:px-16 overflow-hidden'>
-                    <div className='absolute inset-0 z-0'>
-                        <img src='/beans.png' alt="delicious food" className='w-full h-full object-cover' />
-                        <div className='absolute inset-0 bg-black/50'></div>
-                    </div>
 
-                    <div className='relative z-10 max-w-2xl text-white'>
-                        <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight'>
-                            Introducing Our New Menu Additions
-                        </h1>
-
-                        <p className="text-sm sm:text-base md:text-lg text-gray-100">
-                            Explore exciting new dishes, crafted with the freshest ingredients and authentic Nigerian flavours. Limited time offer!
-                        </p>
-                        
-                        <button className='bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-bold transition-all transform hover:scale-105 mt-6 w-full sm:w-auto'>
-                            Discover what's new
-                        </button>
-                    </div>
-                </section>
 
                 <footer className='bg-[#8b5e3c] text-white py-12 px-6 md:px-16'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10'>
