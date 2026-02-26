@@ -98,7 +98,7 @@ const Explore = () => {
     return (
         <div className='min-h-screen bg-white'>
             <div className='relative h-64 md:h-80 w-full overflow-hidden'>
-                <img src="/hero-food.png" alt="Chuks Kitchen" className='w-full h-full object-cover' />
+                <img src="explore_images/explorehero.png" alt="Chuks Kitchen" className='w-full h-full object-cover' />
                 <div className='absolute inset-0 bg-black/40 flex flex-col justify-center px-[5%] md:px-[10%] text-white'>
                 <h1 className='text-4xl font-serif italic font-bold'>Chuks Kitchen</h1>
                 <p className='text-sm opacity-90'>Chuks Kitchen Nigerian Home Cooking 4.8 (1.2k)</p>

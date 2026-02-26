@@ -28,7 +28,7 @@ const Navbar = () => {
                         <NavLink to='/explore' className={({ isActive }) => isActive ?'text-[#e67e22]': 'hover:text-[#e67e22] transition'}>Explore</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>My Orders</NavLink>
+                        <NavLink to='/cart' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>My Orders</NavLink>
                     </li>
                     <li>
                         <NavLink to='/contact' className={({ isActive }) => isActive ? 'text-[#e67e22]' :  'hover:text-[#e67e22] transition'}>Account</NavLink>
@@ -59,7 +59,7 @@ const Navbar = () => {
                     </li>
 
                     <li>
-                        <NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#e67e22]' : 'hover:text-[#e67e22] transition'}>My Orders</NavLink>
+                        <NavLink to='/cart' className={({ isActive }) => isActive ? 'text-[#e67e22]' : 'hover:text-[#e67e22] transition'}>My Orders</NavLink>
                     </li>
 
                     <li>

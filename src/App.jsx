@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './index.css'
 import Navbar from './components/Navbar'
@@ -28,7 +27,6 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/explore' element={<Explore />} />
           <Route path='/cart' element={<Cart />} />
-
         </Routes>
         <Footer />
     </div>
