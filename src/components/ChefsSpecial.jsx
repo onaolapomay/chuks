@@ -52,7 +52,7 @@ const ChefsSpecial = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-6 gap-x-6 gap-y-10 mt-4'>
                 {specials.map((specials) => (
-                    <div key={specials.id} className='flex flex-col group shadow-lg'>
+                    <div key={specials.id} className='flex flex-col group p-4 shadow-lg'>
                         <div className='rounded-2xl overflow-hidden shadow-sm mb-4'>
                             <img src={specials.image} alt={specials.title} className="w-full h-48 object-cover" />
                         </div>
@@ -83,7 +83,7 @@ const ChefsSpecial = () => {
                             Introducing Our New Menu Additions
                         </h1>
 
-                        <p className="text-sm sm:text-base md:text-lg text-gray-100">
+                        <p className='text-sm sm:text-base md:text-lg text-gray-100'>
                             Explore exciting new dishes, crafted with the freshest ingredients and authentic Nigerian flavours. Limited time offer!
                         </p>
                         

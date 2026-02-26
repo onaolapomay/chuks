@@ -47,7 +47,7 @@ const Home =() => {
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 max-w-6xl mx-auto px-14'>
                 {categories.map(category => (
-                    <div key={category.id} className='group cursor-pointer rounded-xl w-52 shadow-xl'>
+                    <div key={category.id} className='group cursor-pointer rounded-lg border border-slate-200 p-4 hover:shadow-lg transition'>
                         <div className='overflow-hidden h-50  group-hover:shadow-md transition'>
                             <img src={category.image} 
                             alt={category.name} 
