@@ -4,12 +4,11 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import ChefsSpecial from './components/ChefsSpecial'
-import Account from './pages/Account'
-import Menu from './pages/Menu'
 import Cart from './pages/Cart'
 import Footer from './components/Footer'
 import SignUp from './pages/SignUp'
 import Login from './pages/Login'
+import Explore from './pages/Explore'
 
 
 function App() {
@@ -27,8 +26,7 @@ function App() {
           
           <Route path='/signup' element={<SignUp />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/account' element={<Account />} />
-          <Route path='/menu' element={<Menu />} />
+          <Route path='/explore' element={<Explore />} />
           <Route path='/cart' element={<Cart />} />
 
         </Routes>

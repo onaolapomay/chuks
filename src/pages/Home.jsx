@@ -59,6 +59,21 @@ const Home =() => {
 
             </div>
 
+            <button 
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="fixed bottom-8 right-8 bg-[#3b82f6] text-white p-3 rounded-full shadow-lg hover:scale-110 transition-all z-50 shadow-blue-500/20"
+                >
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" viewBox="0 0 24 24" 
+                    strokeWidth={3} 
+                    stroke="currentColor" 
+                    className="w-5 h-5"
+                >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+                </svg>
+            </button>
+
         </div>
      </>   
     )
